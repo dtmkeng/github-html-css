@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sarabun" rel="stylesheet">
+        <title> SAK Payment Application Form </title>
+            <div class="logo_header">
+                <p>
+                <image src="baseline_android_black_18dp.png"></image>
+                SAK PAYMENT
+                </p>
+                <ul class="user_header_info">
+                    <image class="user_image" src="account_circle-white-18dp.svg"></image>
+                    <li> Jumnong </li>
+                    <li> หน่วยปางคำ </li>
+                </ul>
+            </div>
+        </head>
+
+        <main>
+            <form>
+            <h1>ข้อมูลสัญญา</h1>
+            <div class="application_name">
+                <p>ชื่อ-สกุลผู้กู้ และชื่อบัญชีตรงกัน     เลขที่สัญญา: 0411001097</p>
+            </div>
+            <div class="user_info">
+                <h3>ข้อมูลส่วนตัว</h3>
+                <table class="user_info_table">
+                    <tr>
+                        <td> ชื่อ-สกุลผู้กู้ </td>
+                        <td> เลขประจำตัวบัตรประชาชน </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="นางพิชชานันท์ ตาปิก"></td>
+                        <td><input type="text" value="3-5403-00550-35-9"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="application_info">
+                <h3>ข้อมูลสัญญา</h3>
+                <table class="user_application_data">
+                    <tr>
+                        <td> เลขที่สัญญา </td>
+                        <td> วันที่ทำสัญญา </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="0411001097"></td>
+                        <td><input type="date" value="24/06/2563"></td>
+                    </tr>
+                    <tr>
+                        <td> ประเภทสินเชื่อ</td>
+                        <td> วงเงินกู้ (บาท) </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="สินเชื่อที่มีทะเบียนรถเป็นประกัน"></td>
+                        <td><input type="number" value="25,000.00"></td>
+                    </tr>
+                    <tr>
+                        <td> ประเภทหลักทรัพย์ </td>
+                        <td> ประเภทการขาย </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="0411001097"></td>
+                        <td><select name="sales_type" id="sales_type">
+                            <option value="M">M</option>
+                            <option value="C">C</option>
+                            <option value="v">V</option>
+                        </select>
+                    </tr>
+                    <tr>
+                        <td> เจ้าหน้าที่วิเคราะห์ </td>
+                        <td> ผู้อนุมัติสินเชื่อ </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="นายอนุชา เชียงส่ง"></td>
+                        <td><input type="date" value="นายจำนง ศักดิ์สยาม"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="payment_transfer_info">
+                <h3>ข้อมูลการโอนเงิน</h3>
+                <table class="payment_info_table">
+                    <tr>
+                        <td> เลขบัญชี </td>
+                        <td> ชื่อบัญชี </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="475-3-01030-9"></td>
+                        <td><input type="text" value="นางพิชชานันท์ ตาปิก"></td>
+                    </tr>
+                    <tr>
+                        <td> ธนาคาร </td>
+                        <td> จำนวนเงินโอน (บาท) </td>
+                    </tr>
+                    <tr>
+                        <td><select name="bank_name" id="bank_name">
+                            <option value="KTB">กรุงไทย</option>
+                            <option value="BBL">กรุงเทพ</option>
+                            <option value="TMB">ทหารไทย</option>
+                            <option value="SCB">ไทยพาณิชย์</option>
+                            <option value="KTB">กสิกรไทย</option>
+                        </select>
+                        <td><input type="number" value="25,000.00"></td>
+                    </tr>
+
+
+                </table>
+                    <div class="button_group">
+                        <input type="button" value="Clear" id="clear">
+                        <input type="button" value="Submit" id="submit">
+                    </div>
+            </div>        
+        </form>
+    </main>
+
+
+    
+</html>
